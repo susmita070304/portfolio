@@ -452,3 +452,79 @@ button:active {
   }
   
  }
+ /* Container styling to provide space */
+.project {
+  padding: 20px;
+  background-color: #e1cdb5; /* Light background to contrast the table */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table Base Styles */
+.project-table {
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.project-table thead th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+  padding: 18px 15px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3498db; /* Accent line */
+}
+
+/* Cell Styling */
+.project-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  font-size: 0.95rem;
+  vertical-align: middle;
+}
+
+/* Alternate row coloring for readability */
+.project-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Hover effect on rows */
+.project-table tbody tr:hover {
+  background-color: #f1f7ff;
+  transition: background 0.3s ease;
+}
+
+/* Button Styling */
+.project-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.project-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Icon Styling inside the H2 */
+.project h2 i {
+  color: #3498db;
+  margin-right: 10px;
+}
